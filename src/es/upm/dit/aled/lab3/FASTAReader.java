@@ -149,6 +149,8 @@ public class FASTAReader {
 	 */
 	private int compareNumErrors(byte[] pattern, int position) throws FASTAException {
 		// TODO
+		
+		
 		return -1;
 	}
 
