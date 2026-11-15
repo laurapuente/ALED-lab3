@@ -29,6 +29,7 @@ public class FASTAReader {
 	 * @param fileName The name of the FASTA file.
 	 */
 	public FASTAReader(String fileName) {
+		
 		try {
 			this.readFile(fileName);
 		} catch (IOException e) {
