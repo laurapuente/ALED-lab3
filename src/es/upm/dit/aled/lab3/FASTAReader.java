@@ -46,6 +46,8 @@ public class FASTAReader {
 	 */
 	private void readFile(String fileName) throws IOException {
 		File f = new File(fileName);
+		
+		
 		FileInputStream fis = new FileInputStream(f);
 		DataInput fid = new DataInputStream(fis);
 		long len = (int) fis.getChannel().size();
